@@ -3,10 +3,4 @@ git log --pretty=oneline - выведет тока каждый комит в о
 ограниченное количество commit)
 git log --pretty=oneline --all - выведет все комиты
 git log --max-count=3 - выведет последнии 3 комита
-git log --author="VadimKozychij" - выведет историю коммитов по автарам
-git checkout 93Af - переключиться на коммит с ключем 93Af
-git checkout master - переключиться обратно на ветку мастер
-git checkout text.txt - вернет состояние файла которое было в прошлом комите
-git reset HEAD text.text - отменит индексацию конкртено для файла text.txt (вместо 
-слова HEAD можно указать имя комита в котором был этот фаил)
-
+got log --author="VadimKozychij" - выведет историю коммитов по автарам
