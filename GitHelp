@@ -1,0 +1,6 @@
+git log - покажет историю коммитов
+git log --pretty=oneline - выведет тока каждый комит в одну строчку (будет тока 
+ограниченное количество commit)
+git log --pretty=oneline --all - выведет все комиты
+git log --max-count=3 - выведет последнии 3 комита
+got log --author="VadimKozychij" - выведет историю коммитов по автарам
