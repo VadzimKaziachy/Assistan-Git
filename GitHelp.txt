@@ -17,4 +17,4 @@ git merge develop - сливаем все что находить в ветке 
 находимся сейчас 
 git rebase develop3 - скинет последний комит в ветку develop3 в ту ветку где мы 
 находимся при это оставим ветку develop3
-hello
+hello Vadim
