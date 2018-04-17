@@ -20,3 +20,6 @@ git rebase develop3 - скинет последний комит в ветку d
 git push origin develop3 - забросит на GitHub все изменения в ветке develop3 в ветку 
 develop3
 git pull origin master - вытащит все изменения с ветки master
+git pull --rebase origin master - вытащит все изменения которые находять в 
+глабальном репозитории и повех этих изменений наложит наш последний комит который 
+был лакально
